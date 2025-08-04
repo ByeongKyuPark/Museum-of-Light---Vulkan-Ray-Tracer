@@ -6,8 +6,6 @@
 
 *Click the image above to watch the full demonstration video*
 
-<img align="center" src="sample.png">
-
 ## Overview
 
 A sophisticated real-time ray tracing renderer built with Vulkan and RTX extensions, featuring an interactive **Museum of Light** that demonstrates advanced global illumination techniques through carefully curated light exhibitions.
