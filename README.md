@@ -1,5 +1,7 @@
 # Museum of Light - Vulkan Ray Tracer
 
+<img align="center" src="sample.png">
+
 ## 🎬 Demonstration Video
 
 [![Museum of Light - Vulkan Ray Tracer Demo](https://img.youtube.com/vi/nyh_aNJuOWw/maxresdefault.jpg)](https://youtu.be/nyh_aNJuOWw)
