@@ -1,10 +1,16 @@
-# Vulkan Gallery Renderer
+# Museum of Light - Vulkan Ray Tracer
+
+## 🎬 Demonstration Video
+
+[![Museum of Light - Vulkan Ray Tracer Demo](https://img.youtube.com/vi/nyh_aNJuOWw/maxresdefault.jpg)](https://youtu.be/nyh_aNJuOWw)
+
+*Click the image above to watch the full demonstration video*
 
 <img align="center" src="sample.png">
 
 ## Overview
 
-A sophisticated real-time ray tracing renderer built with Vulkan and RTX extensions, featuring an interactive art gallery scene that demonstrates advanced global illumination techniques.
+A sophisticated real-time ray tracing renderer built with Vulkan and RTX extensions, featuring an interactive **Museum of Light** that demonstrates advanced global illumination techniques through carefully curated light exhibitions.
 
 ## Key Features
 
@@ -15,9 +21,9 @@ A sophisticated real-time ray tracing renderer built with Vulkan and RTX extensi
 - **Performance Optimized**: Maintains interactive framerates on RTX-capable hardware
 - **Asset Loading**: Support for OBJ model files and texture mapping
 
-## Gallery Scene
+## Museum of Light Exhibition
 
-The main scene showcases a modern art gallery environment featuring:
+The main exhibition showcases a **Museum of Light** environment featuring:
 
 - **Color Bleeding Effects**: Colored walls demonstrate global illumination with realistic light bouncing
 - **Material Variety**: Glass installations, bronze sculptures, and metallic art pieces
@@ -101,7 +107,7 @@ Performance scales with ray complexity and scene geometry density.
 
 ## Gallery
 
-Interactive Gallery Scene demonstrating Cornell Box lighting effects, material variety, and realistic global illumination in a modern art gallery setting.
+**Museum of Light** - Interactive light exhibition demonstrating Cornell Box lighting effects, material variety, and realistic global illumination in a sophisticated museum setting.
 
 ## License
 
