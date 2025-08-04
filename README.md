@@ -1,6 +1,6 @@
 # Vulkan Gallery Renderer
 
-<img align="center" src="gallery/LucySettings.jpg">
+<img align="center" src="sample.png">
 
 ## Overview
 
