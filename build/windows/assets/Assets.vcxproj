@@ -1,0 +1,1406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D1B0D1C7-60D9-3831-8CCA-1055807E5991}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Assets</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\ab9d02e930a2ca991b41904196704af4\Cousine-Regular.ttf.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating fonts/Cousine-Regular.ttf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/fonts/Cousine-Regular.ttf" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/fonts/Cousine-Regular.ttf*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\fonts\Cousine-Regular.ttf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\fonts\Cousine-Regular.ttf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating fonts/Cousine-Regular.ttf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/fonts/Cousine-Regular.ttf" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/fonts/Cousine-Regular.ttf*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\fonts\Cousine-Regular.ttf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\fonts\Cousine-Regular.ttf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating fonts/Cousine-Regular.ttf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/fonts/Cousine-Regular.ttf" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/fonts/Cousine-Regular.ttf*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\fonts\Cousine-Regular.ttf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\fonts\Cousine-Regular.ttf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating fonts/Cousine-Regular.ttf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/fonts/Cousine-Regular.ttf" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/fonts/Cousine-Regular.ttf*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\fonts\Cousine-Regular.ttf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\fonts\Cousine-Regular.ttf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\b0a23348d0b6e5e1a2357bc493b0cd96\cube.mtl.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating models/cube.mtl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube.mtl" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube.mtl*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube.mtl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.mtl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating models/cube.mtl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube.mtl" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube.mtl*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube.mtl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.mtl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating models/cube.mtl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube.mtl" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube.mtl*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube.mtl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.mtl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating models/cube.mtl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube.mtl" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube.mtl*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube.mtl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.mtl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\b0a23348d0b6e5e1a2357bc493b0cd96\cube.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating models/cube.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube.obj" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube.obj*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating models/cube.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube.obj" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube.obj*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating models/cube.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube.obj" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube.obj*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating models/cube.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube.obj" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube.obj*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\b0a23348d0b6e5e1a2357bc493b0cd96\cube_multi.mtl.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating models/cube_multi.mtl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube_multi.mtl" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube_multi.mtl*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube_multi.mtl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.mtl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating models/cube_multi.mtl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube_multi.mtl" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube_multi.mtl*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube_multi.mtl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.mtl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating models/cube_multi.mtl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube_multi.mtl" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube_multi.mtl*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube_multi.mtl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.mtl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating models/cube_multi.mtl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube_multi.mtl" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube_multi.mtl*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube_multi.mtl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.mtl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\b0a23348d0b6e5e1a2357bc493b0cd96\cube_multi.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating models/cube_multi.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube_multi.obj" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube_multi.obj*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube_multi.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating models/cube_multi.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube_multi.obj" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube_multi.obj*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube_multi.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating models/cube_multi.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube_multi.obj" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube_multi.obj*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube_multi.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating models/cube_multi.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube_multi.obj" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube_multi.obj*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\cube_multi.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\b0a23348d0b6e5e1a2357bc493b0cd96\lucy.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating models/lucy.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/lucy.obj" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/lucy.obj*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\lucy.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\lucy.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating models/lucy.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/lucy.obj" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/lucy.obj*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\lucy.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\lucy.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating models/lucy.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/lucy.obj" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/lucy.obj*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\lucy.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\lucy.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating models/lucy.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/lucy.obj" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/lucy.obj*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\models\lucy.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\lucy.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\907ff314475cd5990b58dd4445baa7ea\Graphics.frag.spv.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating shaders/Graphics.frag.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/Graphics.frag -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/Graphics.frag.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Graphics.frag;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.frag.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating shaders/Graphics.frag.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/Graphics.frag -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/Graphics.frag.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Graphics.frag;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.frag.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating shaders/Graphics.frag.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/Graphics.frag -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/Graphics.frag.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Graphics.frag;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.frag.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating shaders/Graphics.frag.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/Graphics.frag -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/Graphics.frag.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Graphics.frag;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.frag.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\907ff314475cd5990b58dd4445baa7ea\Graphics.vert.spv.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating shaders/Graphics.vert.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/Graphics.vert -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/Graphics.vert.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Graphics.vert;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.vert.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating shaders/Graphics.vert.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/Graphics.vert -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/Graphics.vert.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Graphics.vert;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.vert.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating shaders/Graphics.vert.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/Graphics.vert -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/Graphics.vert.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Graphics.vert;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.vert.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating shaders/Graphics.vert.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/Graphics.vert -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/Graphics.vert.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Graphics.vert;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.vert.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\907ff314475cd5990b58dd4445baa7ea\RayTracing.Procedural.rchit.spv.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating shaders/RayTracing.Procedural.rchit.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.Procedural.rchit -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.Procedural.rchit.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.Procedural.rchit;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rchit.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating shaders/RayTracing.Procedural.rchit.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.Procedural.rchit -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.Procedural.rchit.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.Procedural.rchit;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rchit.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating shaders/RayTracing.Procedural.rchit.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.Procedural.rchit -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.Procedural.rchit.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.Procedural.rchit;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rchit.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating shaders/RayTracing.Procedural.rchit.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.Procedural.rchit -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.Procedural.rchit.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.Procedural.rchit;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rchit.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\907ff314475cd5990b58dd4445baa7ea\RayTracing.Procedural.rint.spv.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating shaders/RayTracing.Procedural.rint.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.Procedural.rint -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.Procedural.rint.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.Procedural.rint;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rint.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating shaders/RayTracing.Procedural.rint.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.Procedural.rint -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.Procedural.rint.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.Procedural.rint;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rint.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating shaders/RayTracing.Procedural.rint.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.Procedural.rint -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.Procedural.rint.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.Procedural.rint;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rint.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating shaders/RayTracing.Procedural.rint.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.Procedural.rint -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.Procedural.rint.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.Procedural.rint;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rint.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\907ff314475cd5990b58dd4445baa7ea\RayTracing.rchit.spv.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating shaders/RayTracing.rchit.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.rchit -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.rchit.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rchit;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rchit.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating shaders/RayTracing.rchit.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.rchit -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.rchit.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rchit;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rchit.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating shaders/RayTracing.rchit.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.rchit -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.rchit.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rchit;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rchit.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating shaders/RayTracing.rchit.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.rchit -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.rchit.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rchit;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rchit.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\907ff314475cd5990b58dd4445baa7ea\RayTracing.rgen.spv.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating shaders/RayTracing.rgen.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.rgen -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.rgen.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rgen;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rgen.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating shaders/RayTracing.rgen.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.rgen -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.rgen.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rgen;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rgen.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating shaders/RayTracing.rgen.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.rgen -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.rgen.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rgen;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rgen.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating shaders/RayTracing.rgen.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.rgen -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.rgen.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rgen;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rgen.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\907ff314475cd5990b58dd4445baa7ea\RayTracing.rmiss.spv.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating shaders/RayTracing.rmiss.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.rmiss -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.rmiss.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rmiss;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rmiss.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating shaders/RayTracing.rmiss.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.rmiss -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.rmiss.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rmiss;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rmiss.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating shaders/RayTracing.rmiss.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.rmiss -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.rmiss.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rmiss;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rmiss.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating shaders/RayTracing.rmiss.spv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.rmiss -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.rmiss.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rmiss;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rmiss.spv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\a68bd7c956d89437b716976fd7adefb3\2k_mars.jpg.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating textures/2k_mars.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/2k_mars.jpg" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/2k_mars.jpg*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\2k_mars.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_mars.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating textures/2k_mars.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/2k_mars.jpg" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/2k_mars.jpg*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\2k_mars.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_mars.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating textures/2k_mars.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/2k_mars.jpg" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/2k_mars.jpg*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\2k_mars.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_mars.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating textures/2k_mars.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/2k_mars.jpg" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/2k_mars.jpg*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\2k_mars.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_mars.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\a68bd7c956d89437b716976fd7adefb3\2k_moon.jpg.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating textures/2k_moon.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/2k_moon.jpg" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/2k_moon.jpg*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\2k_moon.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_moon.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating textures/2k_moon.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/2k_moon.jpg" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/2k_moon.jpg*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\2k_moon.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_moon.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating textures/2k_moon.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/2k_moon.jpg" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/2k_moon.jpg*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\2k_moon.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_moon.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating textures/2k_moon.jpg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/2k_moon.jpg" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/2k_moon.jpg*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\2k_moon.jpg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_moon.jpg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\a68bd7c956d89437b716976fd7adefb3\LICENSE.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating textures/LICENSE.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/LICENSE.txt" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/LICENSE.txt*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\LICENSE.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\LICENSE.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating textures/LICENSE.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/LICENSE.txt" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/LICENSE.txt*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\LICENSE.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\LICENSE.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating textures/LICENSE.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/LICENSE.txt" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/LICENSE.txt*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\LICENSE.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\LICENSE.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating textures/LICENSE.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/LICENSE.txt" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/LICENSE.txt*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\LICENSE.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\LICENSE.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\a68bd7c956d89437b716976fd7adefb3\Vulkan.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating textures/Vulkan.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/Vulkan.png" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/Vulkan.png*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\Vulkan.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\Vulkan.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating textures/Vulkan.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/Vulkan.png" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/Vulkan.png*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\Vulkan.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\Vulkan.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating textures/Vulkan.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/Vulkan.png" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/Vulkan.png*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\Vulkan.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\Vulkan.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating textures/Vulkan.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/Vulkan.png" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/Vulkan.png*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\Vulkan.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\Vulkan.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\a68bd7c956d89437b716976fd7adefb3\land_ocean_ice_cloud_2048.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating textures/land_ocean_ice_cloud_2048.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/land_ocean_ice_cloud_2048.png" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/land_ocean_ice_cloud_2048.png*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\land_ocean_ice_cloud_2048.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\land_ocean_ice_cloud_2048.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating textures/land_ocean_ice_cloud_2048.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/land_ocean_ice_cloud_2048.png" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/land_ocean_ice_cloud_2048.png*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\land_ocean_ice_cloud_2048.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\land_ocean_ice_cloud_2048.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating textures/land_ocean_ice_cloud_2048.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/land_ocean_ice_cloud_2048.png" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/land_ocean_ice_cloud_2048.png*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\land_ocean_ice_cloud_2048.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\land_ocean_ice_cloud_2048.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating textures/land_ocean_ice_cloud_2048.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/land_ocean_ice_cloud_2048.png" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/land_ocean_ice_cloud_2048.png*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\land_ocean_ice_cloud_2048.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\land_ocean_ice_cloud_2048.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\a68bd7c956d89437b716976fd7adefb3\white.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating textures/white.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/white.png" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/white.png*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\white.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\white.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating textures/white.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/white.png" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/white.png*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\white.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\white.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating textures/white.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/white.png" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/white.png*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\white.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\white.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating textures/white.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/white.png" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/white.png*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\assets\textures\white.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\white.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\8cee2de721339c0b8026a8737791350e\Assets.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\fonts\Cousine-Regular.ttf;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.mtl;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.obj;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.mtl;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.obj;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\lucy.obj;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.frag.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.vert.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rchit.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rint.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rchit.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rgen.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rmiss.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_mars.jpg;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_moon.jpg;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\LICENSE.txt;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\Vulkan.png;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\land_ocean_ice_cloud_2048.png;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\white.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\CMakeFiles\Assets</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\fonts\Cousine-Regular.ttf;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.mtl;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.obj;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.mtl;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.obj;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\lucy.obj;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.frag.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.vert.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rchit.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rint.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rchit.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rgen.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rmiss.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_mars.jpg;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_moon.jpg;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\LICENSE.txt;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\Vulkan.png;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\land_ocean_ice_cloud_2048.png;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\white.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\CMakeFiles\Assets</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\fonts\Cousine-Regular.ttf;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.mtl;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.obj;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.mtl;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.obj;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\lucy.obj;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.frag.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.vert.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rchit.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rint.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rchit.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rgen.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rmiss.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_mars.jpg;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_moon.jpg;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\LICENSE.txt;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\Vulkan.png;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\land_ocean_ice_cloud_2048.png;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\white.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\CMakeFiles\Assets</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\fonts\Cousine-Regular.ttf;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.mtl;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube.obj;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.mtl;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\cube_multi.obj;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\models\lucy.obj;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.frag.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\Graphics.vert.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rchit.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.Procedural.rint.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rchit.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rgen.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\shaders\RayTracing.rmiss.spv;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_mars.jpg;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\2k_moon.jpg;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\LICENSE.txt;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\Vulkan.png;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\land_ocean_ice_cloud_2048.png;S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\textures\white.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\CMakeFiles\Assets</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\assets\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule S:/project/Vulkan/RayTracingInVulkan/assets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+S:\CMake\bin\cmake.exe -SS:/project/Vulkan/RayTracingInVulkan -BS:/project/Vulkan/RayTracingInVulkan/build/windows --check-stamp-file S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule S:/project/Vulkan/RayTracingInVulkan/assets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+S:\CMake\bin\cmake.exe -SS:/project/Vulkan/RayTracingInVulkan -BS:/project/Vulkan/RayTracingInVulkan/build/windows --check-stamp-file S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule S:/project/Vulkan/RayTracingInVulkan/assets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+S:\CMake\bin\cmake.exe -SS:/project/Vulkan/RayTracingInVulkan -BS:/project/Vulkan/RayTracingInVulkan/build/windows --check-stamp-file S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule S:/project/Vulkan/RayTracingInVulkan/assets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+S:\CMake\bin\cmake.exe -SS:/project/Vulkan/RayTracingInVulkan -BS:/project/Vulkan/RayTracingInVulkan/build/windows --check-stamp-file S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\fonts\Cousine-Regular.ttf">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\models\cube.mtl">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\models\cube.obj">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\models\cube_multi.mtl">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\models\cube_multi.obj">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\models\lucy.obj">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Graphics.frag">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Graphics.vert">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.Procedural.rchit">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.Procedural.rint">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rchit">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rgen">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rmiss">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Heatmap.glsl">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Material.glsl">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\ProceduralHit.glsl">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Random.glsl">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayPayload.glsl">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Scatter.glsl">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\UniformBufferObject.glsl">
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Vertex.glsl">
+    </None>
+    <Image Include="S:\project\Vulkan\RayTracingInVulkan\assets\textures\2k_mars.jpg">
+    </Image>
+    <Image Include="S:\project\Vulkan\RayTracingInVulkan\assets\textures\2k_moon.jpg">
+    </Image>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\textures\LICENSE.txt">
+    </None>
+    <Image Include="S:\project\Vulkan\RayTracingInVulkan\assets\textures\Vulkan.png">
+    </Image>
+    <Image Include="S:\project\Vulkan\RayTracingInVulkan\assets\textures\land_ocean_ice_cloud_2048.png">
+    </Image>
+    <Image Include="S:\project\Vulkan\RayTracingInVulkan\assets\textures\white.png">
+    </Image>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\CMakeFiles\Assets">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\ZERO_CHECK.vcxproj">
+      <Project>{B22CA32C-DA75-3D7F-9A5D-6DD8EB52B930}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "cmath": "cpp",
+    "tuple": "cpp"
+  },
+  "cmake.configureOnOpen": false,
+  "cmake.configureOnEdit": false,
+  "cmake.autoSelectActiveFolder": false,
+  "C_Cpp.default.configurationProvider": ""
+}

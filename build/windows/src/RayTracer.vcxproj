@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BFFB5FA2-757D-3F46-BEC8-7DD7432A4E78}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>RayTracer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RayTracer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RayTracerd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RayTracer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RayTracer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RayTracer.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RayTracer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RayTracer.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RayTracer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>S:\project\Vulkan\RayTracingInVulkan\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;IMGUI_ENABLE_FREETYPE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;IMGUI_ENABLE_FREETYPE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>S:\project\Vulkan\RayTracingInVulkan\src\.;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>S:\project\Vulkan\RayTracingInVulkan\src\.;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary S:/project/Vulkan/RayTracingInVulkan/build/windows/bin/RayTracerd.exe -installedDir S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\boost_program_options-vc143-mt-gd-x64-1_88.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\glfw3.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\glm.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\imguid.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\tinyobjloader.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\vulkan-1.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\boost_container-vc143-mt-gd-x64-1_88.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\glfw3.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\vulkan-1.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\freetyped.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\zlibd.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\bz2d.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\libpng16d.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\zlibd.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\brotlidec.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\brotlicommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/debug/lib/vulkan-1.lib;S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/debug/lib/vulkan-1.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>S:/project/Vulkan/RayTracingInVulkan/build/windows/lib/RayTracerd.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>S:/project/Vulkan/RayTracingInVulkan/build/windows/bin/RayTracerd.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>S:\project\Vulkan\RayTracingInVulkan\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;IMGUI_ENABLE_FREETYPE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;IMGUI_ENABLE_FREETYPE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>S:\project\Vulkan\RayTracingInVulkan\src\.;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>S:\project\Vulkan\RayTracingInVulkan\src\.;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary S:/project/Vulkan/RayTracingInVulkan/build/windows/bin/RayTracer.exe -installedDir S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\boost_program_options-vc143-mt-x64-1_88.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\glfw3.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\glm.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\imgui.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\tinyobjloader.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\vulkan-1.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\boost_container-vc143-mt-x64-1_88.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\glfw3.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\vulkan-1.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\freetype.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\zlib.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\bz2.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\libpng16.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\zlib.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\brotlidec.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\brotlicommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/debug/lib/vulkan-1.lib;S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/debug/lib/vulkan-1.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>S:/project/Vulkan/RayTracingInVulkan/build/windows/lib/RayTracer.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>S:/project/Vulkan/RayTracingInVulkan/build/windows/bin/RayTracer.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>S:\project\Vulkan\RayTracingInVulkan\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;IMGUI_ENABLE_FREETYPE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;IMGUI_ENABLE_FREETYPE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>S:\project\Vulkan\RayTracingInVulkan\src\.;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>S:\project\Vulkan\RayTracingInVulkan\src\.;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary S:/project/Vulkan/RayTracingInVulkan/build/windows/bin/RayTracer.exe -installedDir S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\boost_program_options-vc143-mt-x64-1_88.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\glfw3.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\glm.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\imgui.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\tinyobjloader.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\vulkan-1.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\boost_container-vc143-mt-x64-1_88.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\glfw3.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\vulkan-1.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\freetype.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\zlib.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\bz2.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\libpng16.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\zlib.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\brotlidec.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\brotlicommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/debug/lib/vulkan-1.lib;S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/debug/lib/vulkan-1.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>S:/project/Vulkan/RayTracingInVulkan/build/windows/lib/RayTracer.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>S:/project/Vulkan/RayTracingInVulkan/build/windows/bin/RayTracer.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>S:\project\Vulkan\RayTracingInVulkan\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;IMGUI_ENABLE_FREETYPE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;IMGUI_ENABLE_FREETYPE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>S:\project\Vulkan\RayTracingInVulkan\src\.;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>S:\project\Vulkan\RayTracingInVulkan\src\.;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary S:/project/Vulkan/RayTracingInVulkan/build/windows/bin/RayTracer.exe -installedDir S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\boost_program_options-vc143-mt-x64-1_88.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\glfw3.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\glm.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\imgui.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\tinyobjloader.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\vulkan-1.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\boost_container-vc143-mt-x64-1_88.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\glfw3.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\debug\lib\vulkan-1.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\freetype.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\zlib.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\bz2.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\libpng16.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\zlib.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\brotlidec.lib;S:\project\Vulkan\RayTracingInVulkan\build\vcpkg.windows\installed\x64-windows-static\lib\brotlicommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/debug/lib/vulkan-1.lib;S:/project/Vulkan/RayTracingInVulkan/build/vcpkg.windows/installed/x64-windows-static/debug/lib/vulkan-1.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>S:/project/Vulkan/RayTracingInVulkan/build/windows/lib/RayTracer.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>S:/project/Vulkan/RayTracingInVulkan/build/windows/bin/RayTracer.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule S:/project/Vulkan/RayTracingInVulkan/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+S:\CMake\bin\cmake.exe -SS:/project/Vulkan/RayTracingInVulkan -BS:/project/Vulkan/RayTracingInVulkan/build/windows --check-stamp-file S:/project/Vulkan/RayTracingInVulkan/build/windows/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule S:/project/Vulkan/RayTracingInVulkan/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+S:\CMake\bin\cmake.exe -SS:/project/Vulkan/RayTracingInVulkan -BS:/project/Vulkan/RayTracingInVulkan/build/windows --check-stamp-file S:/project/Vulkan/RayTracingInVulkan/build/windows/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule S:/project/Vulkan/RayTracingInVulkan/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+S:\CMake\bin\cmake.exe -SS:/project/Vulkan/RayTracingInVulkan -BS:/project/Vulkan/RayTracingInVulkan/build/windows --check-stamp-file S:/project/Vulkan/RayTracingInVulkan/build/windows/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule S:/project/Vulkan/RayTracingInVulkan/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+S:\CMake\bin\cmake.exe -SS:/project/Vulkan/RayTracingInVulkan -BS:/project/Vulkan/RayTracingInVulkan/build/windows --check-stamp-file S:/project/Vulkan/RayTracingInVulkan/build/windows/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\project\Vulkan\RayTracingInVulkan\build\windows\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\CornellBox.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\CornellBox.hpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Material.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Model.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Model.hpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Procedural.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Scene.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Scene.hpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Sphere.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Texture.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Texture.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\TextureImage.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\TextureImage.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\UniformBuffer.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\UniformBuffer.hpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Vertex.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\Console.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\Console.hpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\Exception.hpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\Glm.hpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\RenderDocAPI.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\RenderDocManager.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\RenderDocManager.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\StbImage.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\StbImage.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Application.cpp">
+      <ObjectFileName>$(IntDir)/Vulkan/Application.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Application.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Buffer.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Buffer.hpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\BufferUtil.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\CommandBuffers.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\CommandBuffers.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\CommandPool.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\CommandPool.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DebugUtils.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DebugUtils.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DebugUtilsMessenger.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DebugUtilsMessenger.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DepthBuffer.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DepthBuffer.hpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorBinding.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorPool.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorPool.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorSetLayout.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorSetLayout.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorSetManager.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorSetManager.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorSets.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorSets.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Device.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Device.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DeviceMemory.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DeviceMemory.hpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Enumerate.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Fence.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Fence.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\FrameBuffer.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\FrameBuffer.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\GraphicsPipeline.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\GraphicsPipeline.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Image.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Image.hpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\ImageMemoryBarrier.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\ImageView.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\ImageView.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Instance.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Instance.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\PipelineLayout.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\PipelineLayout.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RenderPass.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RenderPass.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Sampler.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Sampler.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Semaphore.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Semaphore.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\ShaderModule.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\ShaderModule.hpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\SingleTimeCommands.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Strings.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Strings.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Surface.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Surface.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\SwapChain.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\SwapChain.hpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Version.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Vulkan.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Vulkan.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Window.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Window.hpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\WindowConfig.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\AccelerationStructure.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\AccelerationStructure.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\Application.cpp">
+      <ObjectFileName>$(IntDir)/Vulkan/RayTracing/Application.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\Application.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\BottomLevelAccelerationStructure.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\BottomLevelAccelerationStructure.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\BottomLevelGeometry.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\BottomLevelGeometry.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\DeviceProcedures.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\DeviceProcedures.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\RayTracingPipeline.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\RayTracingPipeline.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\RayTracingProperties.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\RayTracingProperties.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\ShaderBindingTable.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\ShaderBindingTable.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\TopLevelAccelerationStructure.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\TopLevelAccelerationStructure.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\main.cpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\ModelViewController.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\ModelViewController.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Options.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Options.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\RayTracer.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\RayTracer.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\SceneList.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\SceneList.hpp" />
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\UserInterface.cpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\UserInterface.hpp" />
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\UserSettings.hpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\ZERO_CHECK.vcxproj">
+      <Project>{B22CA32C-DA75-3D7F-9A5D-6DD8EB52B930}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\Assets.vcxproj">
+      <Project>{D1B0D1C7-60D9-3831-8CCA-1055807E5991}</Project>
+      <Name>Assets</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

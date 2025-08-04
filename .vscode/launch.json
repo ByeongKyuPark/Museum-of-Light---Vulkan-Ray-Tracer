@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug RayTracer - Default Scene",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/windows/bin/RayTracer.exe",
+            "args": ["--scene", "1"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build/windows/bin",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "Build Windows"
+        },
+        {
+            "name": "Debug RayTracer - Modern Art Gallery",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/windows/bin/RayTracer.exe",
+            "args": ["--scene", "6"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build/windows/bin",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "Build Windows"
+        },
+        {
+            "name": "Debug RayTracer - Custom Args",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/windows/bin/RayTracer.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build/windows/bin",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "Build Windows"
+        }
+    ]
+}

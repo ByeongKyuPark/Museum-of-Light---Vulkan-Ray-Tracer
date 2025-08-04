@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\CornellBox.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Model.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Scene.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Texture.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\TextureImage.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\UniformBuffer.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\Console.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\RenderDocManager.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\StbImage.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Application.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Buffer.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\CommandBuffers.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\CommandPool.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DebugUtils.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DebugUtilsMessenger.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DepthBuffer.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorPool.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorSetLayout.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorSetManager.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorSets.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Device.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DeviceMemory.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Fence.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\FrameBuffer.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\GraphicsPipeline.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Image.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\ImageView.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Instance.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\PipelineLayout.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RenderPass.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Sampler.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Semaphore.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\ShaderModule.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Strings.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Surface.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\SwapChain.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Vulkan.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Window.cpp">
+      <Filter>Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\AccelerationStructure.cpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\Application.cpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\BottomLevelAccelerationStructure.cpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\BottomLevelGeometry.cpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\DeviceProcedures.cpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\RayTracingPipeline.cpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\RayTracingProperties.cpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\ShaderBindingTable.cpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\TopLevelAccelerationStructure.cpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\ModelViewController.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\Options.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\RayTracer.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\SceneList.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="S:\project\Vulkan\RayTracingInVulkan\src\UserInterface.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\CornellBox.hpp">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Material.hpp">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Model.hpp">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Procedural.hpp">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Scene.hpp">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Sphere.hpp">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Texture.hpp">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\TextureImage.hpp">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\UniformBuffer.hpp">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Assets\Vertex.hpp">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\Console.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\Exception.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\Glm.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\RenderDocAPI.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\RenderDocManager.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Utilities\StbImage.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Application.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Buffer.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\BufferUtil.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\CommandBuffers.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\CommandPool.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DebugUtils.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DebugUtilsMessenger.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DepthBuffer.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorBinding.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorPool.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorSetLayout.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorSetManager.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DescriptorSets.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Device.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\DeviceMemory.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Enumerate.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Fence.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\FrameBuffer.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\GraphicsPipeline.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Image.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\ImageMemoryBarrier.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\ImageView.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Instance.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\PipelineLayout.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RenderPass.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Sampler.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Semaphore.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\ShaderModule.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\SingleTimeCommands.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Strings.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Surface.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\SwapChain.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Version.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Vulkan.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\Window.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\WindowConfig.hpp">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\AccelerationStructure.hpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\Application.hpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\BottomLevelAccelerationStructure.hpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\BottomLevelGeometry.hpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\DeviceProcedures.hpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\RayTracingPipeline.hpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\RayTracingProperties.hpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\ShaderBindingTable.hpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Vulkan\RayTracing\TopLevelAccelerationStructure.hpp">
+      <Filter>Vulkan.RayTracing</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\ModelViewController.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\Options.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\RayTracer.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\SceneList.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\UserInterface.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="S:\project\Vulkan\RayTracingInVulkan\src\UserSettings.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{D65F345B-E3EC-3230-A982-2B6CBCB4798C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{FBD8C6FF-9DA5-3E77-AD22-C744842EC36E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{5DB8642D-D1AE-33C9-B1A7-D7CD16515E17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vulkan">
+      <UniqueIdentifier>{1692DE6A-45F0-3FF1-83F9-AE1268A4D21F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vulkan.RayTracing">
+      <UniqueIdentifier>{80F15325-43A0-344B-B48D-594330A2FCCB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

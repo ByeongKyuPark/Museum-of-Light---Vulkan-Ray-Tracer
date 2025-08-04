@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\ab9d02e930a2ca991b41904196704af4\Cousine-Regular.ttf.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\b0a23348d0b6e5e1a2357bc493b0cd96\cube.mtl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\b0a23348d0b6e5e1a2357bc493b0cd96\cube.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\b0a23348d0b6e5e1a2357bc493b0cd96\cube_multi.mtl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\b0a23348d0b6e5e1a2357bc493b0cd96\cube_multi.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\b0a23348d0b6e5e1a2357bc493b0cd96\lucy.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\907ff314475cd5990b58dd4445baa7ea\Graphics.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\907ff314475cd5990b58dd4445baa7ea\Graphics.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\907ff314475cd5990b58dd4445baa7ea\RayTracing.Procedural.rchit.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\907ff314475cd5990b58dd4445baa7ea\RayTracing.Procedural.rint.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\907ff314475cd5990b58dd4445baa7ea\RayTracing.rchit.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\907ff314475cd5990b58dd4445baa7ea\RayTracing.rgen.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\907ff314475cd5990b58dd4445baa7ea\RayTracing.rmiss.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\a68bd7c956d89437b716976fd7adefb3\2k_mars.jpg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\a68bd7c956d89437b716976fd7adefb3\2k_moon.jpg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\a68bd7c956d89437b716976fd7adefb3\LICENSE.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\a68bd7c956d89437b716976fd7adefb3\Vulkan.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\a68bd7c956d89437b716976fd7adefb3\land_ocean_ice_cloud_2048.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\a68bd7c956d89437b716976fd7adefb3\white.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\CMakeFiles\8cee2de721339c0b8026a8737791350e\Assets.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="S:\project\Vulkan\RayTracingInVulkan\assets\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="S:\project\Vulkan\RayTracingInVulkan\assets\textures\2k_mars.jpg">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="S:\project\Vulkan\RayTracingInVulkan\assets\textures\2k_moon.jpg">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="S:\project\Vulkan\RayTracingInVulkan\assets\textures\Vulkan.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="S:\project\Vulkan\RayTracingInVulkan\assets\textures\land_ocean_ice_cloud_2048.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="S:\project\Vulkan\RayTracingInVulkan\assets\textures\white.png">
+      <Filter>Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\fonts\Cousine-Regular.ttf">
+      <Filter>Fonts</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\models\cube.mtl">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\models\cube.obj">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\models\cube_multi.mtl">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\models\cube_multi.obj">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\models\lucy.obj">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Graphics.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Graphics.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.Procedural.rchit">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.Procedural.rint">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rchit">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rgen">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayTracing.rmiss">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Heatmap.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Material.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\ProceduralHit.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Random.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\RayPayload.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Scatter.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\UniformBufferObject.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\shaders\Vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\assets\textures\LICENSE.txt">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="S:\project\Vulkan\RayTracingInVulkan\build\windows\assets\CMakeFiles\Assets" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4EEB75F3-2FB0-314D-B330-1D19C46B75F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fonts">
+      <UniqueIdentifier>{837C7BD3-EDA8-30CD-A97E-70234A716B25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{15E82053-DAB8-37F2-986E-EAE220CD9875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{7AD5B778-D26A-3212-81C8-491C3DDDB34C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{A575AC24-65DB-30D6-921F-CFD966770A73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

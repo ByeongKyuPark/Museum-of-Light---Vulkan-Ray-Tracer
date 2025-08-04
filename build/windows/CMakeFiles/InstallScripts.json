@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"S:/project/Vulkan/RayTracingInVulkan/build/windows/cmake_install.cmake",
+		"S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/cmake_install.cmake",
+		"S:/project/Vulkan/RayTracingInVulkan/build/windows/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

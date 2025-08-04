@@ -1,0 +1,222 @@
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\AB9D02E930A2CA991B41904196704AF4\COUSINE-REGULAR.TTF.RULE
+setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/fonts/Cousine-Regular.ttf" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/fonts/Cousine-Regular.ttf*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\B0A23348D0B6E5E1A2357BC493B0CD96\CUBE.MTL.RULE
+setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube.mtl" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube.mtl*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\B0A23348D0B6E5E1A2357BC493B0CD96\CUBE.OBJ.RULE
+setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube.obj" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube.obj*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\B0A23348D0B6E5E1A2357BC493B0CD96\CUBE_MULTI.MTL.RULE
+setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube_multi.mtl" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube_multi.mtl*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\B0A23348D0B6E5E1A2357BC493B0CD96\CUBE_MULTI.OBJ.RULE
+setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/cube_multi.obj" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/cube_multi.obj*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\B0A23348D0B6E5E1A2357BC493B0CD96\LUCY.OBJ.RULE
+setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/models/lucy.obj" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/models/lucy.obj*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\907FF314475CD5990B58DD4445BAA7EA\GRAPHICS.FRAG.SPV.RULE
+setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/Graphics.frag -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/Graphics.frag.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\907FF314475CD5990B58DD4445BAA7EA\GRAPHICS.VERT.SPV.RULE
+setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/Graphics.vert -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/Graphics.vert.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\907FF314475CD5990B58DD4445BAA7EA\RAYTRACING.PROCEDURAL.RCHIT.SPV.RULE
+setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.Procedural.rchit -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.Procedural.rchit.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\907FF314475CD5990B58DD4445BAA7EA\RAYTRACING.PROCEDURAL.RINT.SPV.RULE
+setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.Procedural.rint -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.Procedural.rint.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\907FF314475CD5990B58DD4445BAA7EA\RAYTRACING.RCHIT.SPV.RULE
+setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.rchit -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.rchit.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\907FF314475CD5990B58DD4445BAA7EA\RAYTRACING.RGEN.SPV.RULE
+setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.rgen -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.rgen.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\907FF314475CD5990B58DD4445BAA7EA\RAYTRACING.RMISS.SPV.RULE
+setlocal
+S:\CMake\bin\cmake.exe -E make_directory S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders
+if %errorlevel% neq 0 goto :cmEnd
+S:\Vulkan\Bin\glslangValidator.exe --target-env vulkan1.2 -V S:/project/Vulkan/RayTracingInVulkan/assets/shaders/RayTracing.rmiss -o S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/shaders/RayTracing.rmiss.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\A68BD7C956D89437B716976FD7ADEFB3\2K_MARS.JPG.RULE
+setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/2k_mars.jpg" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/2k_mars.jpg*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\A68BD7C956D89437B716976FD7ADEFB3\2K_MOON.JPG.RULE
+setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/2k_moon.jpg" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/2k_moon.jpg*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\A68BD7C956D89437B716976FD7ADEFB3\LICENSE.TXT.RULE
+setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/LICENSE.txt" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/LICENSE.txt*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\A68BD7C956D89437B716976FD7ADEFB3\VULKAN.PNG.RULE
+setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/Vulkan.png" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/Vulkan.png*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\A68BD7C956D89437B716976FD7ADEFB3\LAND_OCEAN_ICE_CLOUD_2048.PNG.RULE
+setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/land_ocean_ice_cloud_2048.png" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/land_ocean_ice_cloud_2048.png*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\A68BD7C956D89437B716976FD7ADEFB3\WHITE.PNG.RULE
+setlocal
+xcopy "S:/project/Vulkan/RayTracingInVulkan/assets/textures/white.png" "S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/textures/white.png*" /Y /Q /F
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\BUILD\WINDOWS\CMAKEFILES\8CEE2DE721339C0B8026A8737791350E\ASSETS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^S:\PROJECT\VULKAN\RAYTRACINGINVULKAN\ASSETS\CMAKELISTS.TXT
+setlocal
+S:\CMake\bin\cmake.exe -SS:/project/Vulkan/RayTracingInVulkan -BS:/project/Vulkan/RayTracingInVulkan/build/windows --check-stamp-file S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,4 @@
+S:/project/Vulkan/RayTracingInVulkan/build/windows/CMakeFiles/ALL_BUILD.dir
+S:/project/Vulkan/RayTracingInVulkan/build/windows/CMakeFiles/ZERO_CHECK.dir
+S:/project/Vulkan/RayTracingInVulkan/build/windows/assets/CMakeFiles/Assets.dir
+S:/project/Vulkan/RayTracingInVulkan/build/windows/src/CMakeFiles/RayTracer.dir
